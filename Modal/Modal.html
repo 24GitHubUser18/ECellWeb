@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Image Slider</title>
+    <link rel="stylesheet" href="Modal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Modal with Image Slider</h1>
+        <button id="openModal">Open Modal</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slider">
+                <div class="slides">
+                    <img src="image1.jpg" class="slide" alt="Image 1">
+                    <img src="image2.jpg" class="slide" alt="Image 2">
+                    <img src="image3.jpg" class="slide" alt="Image 3">
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="Modal.js"></script>
+</body>
+</html>
